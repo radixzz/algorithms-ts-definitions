@@ -27,6 +27,7 @@ declare module "algorithms" {
         export class LinkedList {
             readonly length: number;
             readonly head: ILinkedListNode;
+            readonly tail: ILinkedListNode;
 
             /** Returns whether the list is empty */
             isEmpty(): boolean;
