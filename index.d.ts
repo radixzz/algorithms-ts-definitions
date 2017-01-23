@@ -87,10 +87,10 @@ declare module "algorithms" {
             forEach( func: ( key: string, value: any )=> void ): void;
         }
 
-        export class HashSet {
+        export class Set {
             readonly size: number;
-            add( ...args: any[] ): HashSet;
-            remove(...args: any[] ): HashSet;
+            add( ...args: any[] ): Set;
+            remove(...args: any[] ): Set;
             contains( el: string ): boolean;
             forEach( func: ( key: string, value: any )=> void ): void;
         }
@@ -119,7 +119,6 @@ declare module "algorithms" {
             edge( labelA: string, labelB: string ): void;
         }
         export class PriorityQueue {}
-        export class Set {}
         export class Treap {}
     }
 
